@@ -1,0 +1,49 @@
+<style>
+* {
+box-sizing: border-box;
+heigt: 100vh;
+}
+
+body {
+font-family: Arial;
+margin: 1;
+}
+
+h2{
+  color: orange;
+
+}
+
+h4{
+  color: black;
+}
+
+section {  
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;        
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article{
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+
+aside{
+  padding: 20px;
+  float: left;
+  width: 30%;
+  background-color: gray;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid orange;
+}
+
+
+</style>
