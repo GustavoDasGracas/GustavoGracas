@@ -6,13 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="document.getElementById('teste').innerHTML = ' Teste Java innerHTML'"> click </button>
+    <button onclick="document.getElementById('teste').innerHTML = 'Teste Java innerHTML'"> click </button>
     <p id="teste"></p>
     <button onclick="document.getElementById('teste').style.color='red'"> click </button>
 
-    <br>
+    <br><br>
+
+    <button button="document.getElementById('teste2').innerHTML= '2+3'"> calcular</button>
     <p id="teste2"></p>
-    <button button="document.getElementById('teste2').innerHTML = '2+3'"> calcular</button>
+
+
+    <button onclick = "testejs()"> CLICK2
+
+    </button>
+
+    <script>
+        function testejs(){
+            document.getElementById("teste2").innerHTML= 'teste'
+        }
+    </script>
 
 </body>
 </html>
